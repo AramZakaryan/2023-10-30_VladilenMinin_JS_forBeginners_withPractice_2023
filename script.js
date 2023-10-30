@@ -61,13 +61,22 @@
 
 // // ========== Arrays and Objects 
 // // ========== part 2
+//
+// const myArr = [3, 4, 88, 0, 44]
+//
+//
+// for (let el of myArr) {
+//     el *= 10
+// }
+//
+// console.log(myArr)
 
-const myArr = [3, 4, 88, 0, 44]
 
 
-for (let el of myArr) {
-    el *= 10
+// // ========== Arrays and Objects 
+// // ========== part 3
+
+
+document.querySelector("#btn1_1").onclick = function (ev) {
+    console.log(ev.target.dataset.myid)
 }
-
-console.log(myArr)
-
