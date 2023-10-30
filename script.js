@@ -21,16 +21,29 @@
 
 
 
-// ========= Data Types
+// // ========= Data Types
+//
+// let x
+//
+// console.log(x) // undefined
+//
+// console.log(1 / x) // NaN
+//
+// console.log(typeof (1 / x)) // !!! number
+//
+// console.log(typeof NaN) // !!! number
 
-let x
 
-console.log(x) // undefined
 
-console.log(1 / x) // NaN
+// ========== Arrays and Objects 
+// ========== part 1 
 
-console.log(typeof (1 / x)) // !!! number
 
-console.log(typeof NaN) // !!! number
+const myArr = [3, 4, 88, 0, 44]
+
+myArr[myArr.length]=88
+
+console.log(myArr)
+
 
 
